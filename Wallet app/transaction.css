@@ -1,0 +1,21 @@
+.btn {
+    margin-left: 10px;
+}
+
+#search {
+    margin-left: 64%;
+}
+
+.hd {
+    margin-left: 3%;
+}
+
+.hd1,
+.hd2 {
+    margin-left: 30%;
+}
+
+@font-face {
+    font-family: "sample";
+    src: url('font/Therace.ttf');
+}

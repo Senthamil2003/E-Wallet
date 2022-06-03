@@ -1,0 +1,122 @@
+.div1 {
+    margin-top: 3%;
+    height: 500px;
+    width: 50%;
+    background-image: url("image/ov_img_33.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+
+    position: absolute;
+
+}
+
+@font-face {
+    font-family: "sample";
+    src: url('font/Therace.ttf');
+}
+
+.div2 {
+
+    margin-top: 3%;
+    height: 500px;
+    width: 35%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4f4b4b;
+    background-color: white;
+    box-shadow: 10px 20px #888888;
+    position: absolute;
+    margin-left: 60%;
+    border-radius: 30px;
+}
+
+.lbl {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 5%;
+
+
+}
+
+.txt {
+
+
+    height: 40px;
+    width: 280px;
+    margin-bottom: 5%;
+}
+
+.img {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    margin-left: 60.5%;
+    z-index: -1;
+    margin-top: 8%;
+    animation-name: pika;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes pika {
+    0% {
+
+        top: 290px;
+        left: 0px;
+    }
+
+    25% {
+        top: 300px;
+        left: -100px;
+        transform: rotate(-80deg);
+
+    }
+
+    50% {
+        top: 300px;
+        left: 380px;
+        transform: rotate(-30deg);
+    }
+
+    60% {
+        left: 380px;
+        top: 100px;
+        transform: rotate(0deg);
+    }
+
+    75% {
+        left: 490px;
+        top: 100px;
+        transform: rotate(70deg);
+
+    }
+
+    100% {
+        left: 380px;
+        top: 100px;
+        transform: rotate(0deg);
+
+
+    }
+
+
+
+}
+
+.h {
+    position: absolute;
+    color: rgb(109, 167, 22);
+    font-weight: bolder;
+    margin-top: 17%;
+    margin-left: 12%;
+    font-size: 50px;
+}
+
+.im1 {
+    content: url(image/giphy.gif);
+    height: 290px;
+    width: 350px;
+
+}
