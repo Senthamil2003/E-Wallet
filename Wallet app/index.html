@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet app</title>
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img src="image/logo.PNG" alt="" height="50px;" width="100px" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="selectWallet.html">Choose Wallet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="addwallet.html">Add points</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="checkbalance.html"
+                >Check Balance</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="transaction.html"
+                >Transaction List</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Payment</a>
+            </li>
+          
+
+            <form class="d-flex">
+              <input
+                class="form-control me-2" 
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </ul>
+          <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg>
+          </ul>
+          <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+            <p style="color: white; margin-top: 17px; font-family:sans-serif; font-weight: bold;" id="uname"></p>
+            
+          </ul>
+            <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+              <li class="nav-item" >
+             
+               <button class="btn btn-danger"   id="lgout" onclick="logout()" >LOGOUT</button>
+              </li>
+            </ul>
+           
+            
+            
+         
+         
+        </div>
+      </div>
+    </nav>
+  </head>
+  <body class="body">
+    <div class="div1">
+      <h1
+        style="
+          text-align: center;
+          color: black;
+          font-family: sample;
+          font-size: 60px;
+          margin-top: 15%;
+        "
+      >
+        E-wallet
+      </h1>
+      <p style="font-size: 25px; margin-top: 3%">
+        A digital wallet, also known as e-wallet, is an electronic device,
+        online service, or software program that allows one party to make
+        electronic transactions with another party bartering digital currency
+        units for goods and services
+      </p>
+      <button
+        class="btn1"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Add Wallet
+      </button>
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel" style="font-family: sample;">E-Wallet</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            
+            <div class="modal-footer">
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div2"></div>
+    
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="text.js"></script>
+  </body>
+</html>

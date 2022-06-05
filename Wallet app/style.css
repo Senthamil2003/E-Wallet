@@ -1,0 +1,44 @@
+.div1 {
+    height: 560px;
+    width: 40%;
+
+    margin-top: 4%;
+    margin-left: 58%;
+
+    position: absolute;
+
+}
+
+.div2 {
+    height: 560px;
+    width: 40%;
+    background-image: url("https://api.mib.com.mv/api/files/15/view");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3%;
+
+}
+
+@font-face {
+    font-family: "sample";
+    src: url("font/Therace.ttf");
+}
+
+.btn1 {
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    margin-left: 40%;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+    opacity: 70%;
+}
+
+.div3 {
+    height: 700px;
+    width: 100%;
+}

@@ -1,0 +1,47 @@
+.div1{
+    position: absolute;
+    height: 580px;
+    width:33%;
+    margin-left: 8%;
+    background-image:linear-gradient(120deg,#1759bd,#4779c4,#4355bd,#3b4cb3);
+    
+    border-radius: 30px;
+    
+   
+
+   
+
+}
+
+@font-face {
+    font-family: "samples";
+    src: url('/font/Therace.ttf');
+}
+.body{
+    background-image: url("image/wallet.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.frm{
+    margin-top: 8%;
+    margin-left:15%;
+}
+.btn{
+     margin-left: 20%;
+     height: 40px;
+     width: 150px;
+     
+     
+}
+.lbl{
+    font-weight: bolder;
+    font-size: large;
+}
+.anc{
+    text-decoration: none;
+    color: white;
+}

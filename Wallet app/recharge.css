@@ -1,0 +1,68 @@
+.div1 {
+    margin-top: 3%;
+    height: 500px;
+    width: 50%;
+    background-image: url("image/retail2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 64%;
+
+    position: absolute;
+
+}
+
+@font-face {
+    font-family: "sample";
+    src: url('font/Therace.ttf');
+}
+
+@font-face {
+    font-family: "sample1";
+    src: url('font/One\ Slice.otf');
+}
+
+.div2 {
+
+    margin-top: 4%;
+    height: 530px;
+    width: 35%;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4f4b4b;
+    box-shadow: 10px 20px #888888;
+    position: absolute;
+    margin-left: 60%;
+    border-radius: 30px;
+}
+
+.lbl {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 5%;
+
+
+
+}
+
+.txt {
+
+
+    height: 40px;
+    width: 280px;
+    margin-bottom: 5%;
+}
+
+.im1 {
+    content: url(image/giphy2.gif);
+    height: 290px;
+    width: 290px;
+    margin-left: 21%;
+}
+
+.im2 {
+    color: #1fdebb;
+    font-weight: bolder;
+    margin-left: 14%;
+    margin-top: 8%;
+}

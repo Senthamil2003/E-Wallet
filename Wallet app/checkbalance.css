@@ -1,0 +1,138 @@
+.div1 {
+    margin-top: 3%;
+    height: 500px;
+    width: 50%;
+    background-image: url("image/ov_img_33.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 64%;
+
+    position: absolute;
+
+}
+
+@font-face {
+    font-family: "sample";
+    src: url('font/Therace.ttf');
+}
+
+@font-face {
+    font-family: "sample1";
+    src: url('font/One\ Slice.otf');
+}
+
+.div2 {
+
+    margin-top: 6%;
+    height: 430px;
+    width: 35%;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4f4b4b;
+    box-shadow: 10px 20px #888888;
+    position: absolute;
+    margin-left: 60%;
+    border-radius: 30px;
+}
+
+.lbl {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 5%;
+
+
+
+}
+
+.txt {
+
+
+    height: 40px;
+    width: 280px;
+    margin-bottom: 5%;
+}
+
+.img {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    margin-left: 61%;
+    z-index: -1;
+
+    animation-name: pika;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pika {
+    0% {
+
+        left: 0px;
+        top: 180px
+    }
+
+    25% {
+        left: 0px;
+        top: 70px;
+
+
+    }
+
+    50% {
+        left: 0px;
+        top: 180px;
+
+    }
+
+    70% {
+        top: 180px;
+        left: 300px;
+
+    }
+
+    80% {
+        top: 50px;
+        left: 300px;
+    }
+
+    100% {
+        top: 180px;
+        left: 300px;
+    }
+
+
+
+
+
+}
+
+.img2 {
+    content: url(image/person-icon.png);
+    height: 160px;
+    width: 160px;
+    margin-left: 31%;
+
+}
+
+.p1 {
+    position: absolute;
+    margin-left: 13%;
+    font-family: sample;
+
+}
+
+.p2 {
+    margin-left: 53%;
+    font-family: sample1;
+    margin-bottom: 0;
+
+
+
+}
+
+.btn3 {
+    margin-left: 39%;
+    width: 100px;
+    margin-top: 6%;
+}
